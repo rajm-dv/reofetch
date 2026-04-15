@@ -17,6 +17,7 @@ int main(void) {
 
   get_user_host();
   get_os();
+  get_uptime();
 
   return 0;
 }
