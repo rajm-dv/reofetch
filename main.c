@@ -7,14 +7,16 @@
  * </DES>
  */
 
-#include "headers/ascii.h"
+#include "rfetch.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void) {
-  printf("reofetch v1.0\n");
-
   print_logo();
+  printf("\n");
+
+  get_user_host();
+  get_os();
 
   return 0;
 }
