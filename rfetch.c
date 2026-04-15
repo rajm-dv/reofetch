@@ -7,11 +7,14 @@
  * </DES>
  */
 
+#include "headers/ascii.h"
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) {
-  printf("Hello world\n");
+int main(void) {
+  printf("reofetch v1.0\n");
+
+  print_logo();
 
   return 0;
 }
