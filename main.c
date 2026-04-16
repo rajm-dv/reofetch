@@ -9,7 +9,6 @@
 
 #include "rfetch.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void) {
   print_logo();
@@ -18,6 +17,7 @@ int main(void) {
   get_user_host();
   get_os();
   get_uptime();
+  get_cpuinfo();
 
   return 0;
 }

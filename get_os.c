@@ -7,7 +7,7 @@ void get_os(void) {
 
   while(fgets(line, sizeof(line), fp)) {
     if(strncmp(line, "PRETTY_NAME=", 12) == 0) {
-      printf("OS: %s\n", line + 12);
+      printf("OS: %s", line + 12);
       break;
     }
   }
