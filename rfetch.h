@@ -7,6 +7,7 @@ void get_user_host(void);
 void get_os(void);
 void get_uptime(void);
 void get_cpuinfo(void);
+void get_meminfo(void);
 
 #endif // RFETCH_H_
 

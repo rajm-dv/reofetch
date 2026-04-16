@@ -7,7 +7,7 @@ void get_cpuinfo(void) {
 
   while(fgets(line, sizeof(line), fp)) {
     if(strncmp(line, "model name", 10) == 0) {
-      printf("CPU: %s\n", strchr(line, ':') + 2);
+      printf("CPU: %s", strchr(line, ':') + 2);
       break;
     }
   }

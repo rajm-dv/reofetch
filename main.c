@@ -18,6 +18,7 @@ int main(void) {
   get_os();
   get_uptime();
   get_cpuinfo();
+  get_meminfo();
 
   return 0;
 }
